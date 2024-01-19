@@ -9,7 +9,6 @@ https://stepik.org/lesson/732063/step/12?unit=733596
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# region cookies
 COOKIES = [{'name': 'KXIYO4xMrWh', 'value': 'ibyAZPfXAsPqptPaNyL'},
            {'name': '0OIJ4G4ZLzK', 'value': 'kJcPzQu5Jr8ELK'},
            {'name': 'O1C4sd3RK5udnZ6P', 'value': '4mYYxbfgnIvuip2ry58EQ'},
@@ -110,8 +109,6 @@ COOKIES = [{'name': 'KXIYO4xMrWh', 'value': 'ibyAZPfXAsPqptPaNyL'},
            {'name': 'hbFS4sDwQh', 'value': 's4zWhushscPPDDFqT5tzPJqix0HMjjG'},
            {'name': 'b9wAAVSyw4V2LQ', 'value': 'SDkldbPnf6NjLZSxWZV7CpCW'},
            {'name': 'jFhFn0wPFRG', 'value': 'RYqOrD21ZN7aUeBXqISZ2afocnvvwd6hw3BXUj1wEm0mUO'}]
-
-# endregion cookies
 
 URL = "https://parsinger.ru/selenium/5.6/1/index.html"
 
